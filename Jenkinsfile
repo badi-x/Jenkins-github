@@ -1,22 +1,20 @@
 pipeline {
     agent any
-    stages {
-        stage('No-op') {
-            steps {
-                echo "Test ${currentBuild.fullDisplayName}"
-                sh 'ls'
-            }
-        }
-        
-         stage('Sanity check') {
-            steps {
-                input "Does the staging environment look ok?"
-            }
-        }
 
-                 stage('Check uname') {
+    stages {
+        stage('Build') {
             steps {
-                sh 'uname -a'
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
             }
         }
     }
