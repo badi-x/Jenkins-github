@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    triggers {
-        githubPush()
-    }       
-
     stages {
         stage('Print variables') {
             steps {
@@ -45,17 +41,6 @@ pipeline {
                 echo "LC_IDENTIFICATION = ${LC_IDENTIFICATION}"
             }
         }
-        stage('GITHUB') {
-            steps {
-                echo "GITHUB_ACTOR = ${GITHUB_ACTOR}"
-                echo "GITHUB_REPOSITORY = ${GITHUB_REPOSITORY}"
-                echo "GITHUB_EVENT_NAME = ${GITHUB_EVENT_NAME}"
-                echo "GITHUB_EVENT_PATH = ${GITHUB_EVENT_PATH}"
-                echo "GITHUB_WORKFLOW = ${GITHUB_WORKFLOW}"
-                echo "GITHUB_HEAD_REF = ${GITHUB_HEAD_REF}"
-                echo "GITHUB_BASE_REF = ${GITHUB_BASE_REF}"
-                echo "GITHUB_SHA = ${GITHUB_SHA}"
-            }
-        }
+
     }
 }
