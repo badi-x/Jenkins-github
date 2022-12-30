@@ -1,11 +1,11 @@
 
+      def readFileContents(String fileName) {
+        return readFile(fileName)
+      } 
+
 
 pipeline {
     agent any
-
-      def readFileContents(String fileName) {
-        return readFile(fileName)
-        } 
 
     stages {
         stage('Print variables') {
