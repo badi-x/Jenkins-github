@@ -1,6 +1,7 @@
 pipeline {
     agent any
-
+    def fileContents = readFile('new_prod.txt')
+    
     stages {
         stage('Print variables') {
             steps {
@@ -44,10 +45,8 @@ pipeline {
         
         stage('Read file') {
             steps {
-                def fileContents = readFile('new_prod.txt')
                 echo "Contents of test.txt: ${fileContents}"
             }
         }
-
     }
 }
