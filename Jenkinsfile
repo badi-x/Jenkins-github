@@ -41,6 +41,13 @@ pipeline {
                 echo "LC_IDENTIFICATION = ${LC_IDENTIFICATION}"
             }
         }
+        
+        stage('Read file') {
+            steps {
+                def fileContents = readFile('new_prod.txt')
+                echo "Contents of test.txt: ${fileContents}"
+            }
+        }
 
     }
 }

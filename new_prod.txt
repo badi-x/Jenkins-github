@@ -1,0 +1,15 @@
+*.badi-x.com    2023.07.31      arn:aws:acm:us-east-1:190127061367:certificate/b124b6d6-0a6f-4457-b7d5-6226134ff308
+daw.bar         2023.08.07      arn:aws:acm:us-east-1:190127061367:certificate/004d39dd-215b-4b03-8695-4567fd1f34d5
+*.badi-x.com    2023.07.31      arn:aws:acm:us-east-1:190127061367:certificate/b124b6d6-0a6f-4457-b7d5-6226134ff308
+daw.bar         2022.04.02      arn:aws:acm:us-east-1:190127061367:certificate/004d39dd-215b-4b03-8695-4567fd1f34d5
+*DATA           2023.01.15      arn:aws:acm:us-east-1:190127061367:certificate/b124b6d6-0a6f-4457-b7d5-6226134ff308
+daw.bar         2023.02.01      arn:aws:acm:us-east-1:190127061367:certificate/004d39dd-215b-4b03-8695-4567fd1f34d5
+*.badi-x.com    2023.07.31      arn:aws:acm:us-east-1:190127061367:certificate/b124b6d6-0a6f-4457-b7d5-6226134ff308
+daw.bar         2023.03.03      arn:aws:acm:us-east-1:190127061367:certificate/004d39dd-215b-4b03-8695-4567fd1f34d5
+*.badi-x.com    2023.07.31      arn:aws:acm:us-east-1:190127061367:certificate/b124b6d6-0a6f-4457-b7d5-6226134ff308
+daw.bar         2023.02.02      arn:aws:acm:us-east-1:190127061367:certificate/004d39dd-215b-4b03-8695-4567fd1f34d5
+*AAAAAAAAAAA    2023.01.5      arn:aws:acm:us-east-1:190127061367:certificate/b124b6d6-0a6f-4457-b7d5-6226134ff308
+*.badi-x.com    2023.07.31      arn:aws:acm:us-east-1:190127061367:certificate/b124b6d6-0a6f-4457-b7d5-6226134ff308
+daw.bar         2022.12.30      arn:aws:acm:us-east-1:190127061367:certificate/004d39dd-215b-4b03-8695-4567fd1f34d5
+XXXX            2023.07.31      arn:aws:acm:us-east-1:190127061367:certificate/b124b6d6-0a6f-4457-b7d5-6226134ff308
+test            2023.01.10      arn:aws:acm:us-east-1:190127061367:certificate/004d39dd-215b-4b03-8695-4567fd1f34d5
