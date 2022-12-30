@@ -1,3 +1,5 @@
+def fileContents = readFile('new_prod.txt')
+
 pipeline {
     agent any
 
@@ -45,9 +47,6 @@ pipeline {
         
         stage('Read file') {
             steps {
-              scripts {
-                def fileContents = readFile('new_prod.txt')
-              }
                 echo "Contents of test.txt: ${fileContents}"
             }
         }
